@@ -1,11 +1,12 @@
+import React from "react";
 import { Container, Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 
 function FormGroupExample() {
     return (
-        <Container>
+        <Container >
             <hr></hr>
-            <h1 className="font-primary color-secondary text-center my-4">
+            <h1 id="contactanos" className="font-primary color-secondary text-center my-4">
                 Contáctanos
             </h1>
             
@@ -27,6 +28,7 @@ function FormGroupExample() {
                     <Form.Label>Mensaje</Form.Label>
                     <Form.Control
                         as="textarea"
+                        className="form-control"
                         type="textarea"
                         placeholder="Mensaje"
                         style={{ height: "100px" }}

@@ -1,10 +1,11 @@
+import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Button from "./Button";
 import img from "../assets/img/MUJER 1.jpg";
 
 export default function About() {
   return (
-    <Container className="py-5">
+    <Container id="nosotros" className="py-5">
       <Row>
         <Col lg={4} md={6} sm={12}>
           <Image src={img} fluid />
@@ -17,7 +18,7 @@ export default function About() {
             de prendas en ORO Italiano de 18K.
             </p>
 
-            <Button text="Contáctanos" />
+            <a href="#contactanos"> <Button text="Contáctanos" /> </a>
           </div>
         </Col>
       </Row>

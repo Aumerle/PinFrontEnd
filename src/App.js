@@ -1,11 +1,13 @@
+import React from "react";
 import Menu from "./components/Menu";
 import Hero from "./components/Hero";
 import Collections from "./components/Collections";
 import Discount from "./components/Discount";
 import HappyCustomer from "./components/HappyCustomer";
 import About from "./components/About";
+import CreateContact from "./components/CreateContact";
 import Footer from "./components/Footer";
-import Formulario from "./components/Formulario"
+
 
 export default function App() {
   return (
@@ -17,7 +19,7 @@ export default function App() {
       <Discount />
       <HappyCustomer />
       <About />
-      <Formulario/>
+      <CreateContact/>
       <Footer />
       
       

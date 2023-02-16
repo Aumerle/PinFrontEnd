@@ -1,9 +1,11 @@
+import React from "react";
 import styled from "styled-components";
 import {Container, Row, Col} from 'react-bootstrap'
 
 export default function Footer() {
   const Line = styled.div`
     border-top: 2.5px solid #C68230 ;
+    margin-top:20px;
   `;
 
   return (
