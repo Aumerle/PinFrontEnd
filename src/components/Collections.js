@@ -1,3 +1,4 @@
+import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Collectionitem from "./Collectionitem";
 import Img1 from "../assets/img/MUJER 2.jpg";
@@ -9,7 +10,7 @@ import Img4 from "../assets/img/MUJER 4.jpg";
 export default function Collections() {
   return (
     <Container className="py-5">
-      <h3 className="font-secondary color-primary fs-40">
+      <h3 id="coleccion" className="font-secondary color-primary fs-40">
         <u>Colección</u> <i class="bi bi-arrow-right"></i>
       </h3>
       <Row>

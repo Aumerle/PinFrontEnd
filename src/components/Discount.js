@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import { Container } from "react-bootstrap";
 import Button from "./Button";
@@ -55,7 +56,7 @@ export default function Discount() {
             <br />
             Prendas seleccionadas
           </p>
-          <Button text="+Info" color="white" />
+          <a href="#contactanos"><Button text="+Info" color="white" /></a>
         </DiscText>
       </Discount>
     </Container>

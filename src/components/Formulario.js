@@ -40,7 +40,7 @@ const Formulario = () => {
 
 			<form action="" onSubmit={handleSubmit} className="formulario">
 				<div>
-				<h1 className="font-primary color-secondary text-center my-4">
+				<h1 id="contactanos" className="font-primary color-secondary text-center my-4">
                 Contáctanos
             </h1>
 				</div>

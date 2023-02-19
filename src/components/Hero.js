@@ -1,3 +1,4 @@
+import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Button from "./Button";
 import img from "../assets/img/LOGOTIPO.png";
@@ -16,7 +17,7 @@ export default function Hero() {
                 Somos una compañia Colombiana dedicada a la fabricación y distribución
                 de prendas en ORO Italiano de 18K.{" "}
               </p>
-              <Button text="Escribenos" icon="bi bi-arrow-right" />
+              <a href="#contactanos"><Button text="Escribenos" icon="bi bi-arrow-right" /></a>
             </div>
           </Col>
           <Col lg={4} md={6} className="d-none d-lg-block" >

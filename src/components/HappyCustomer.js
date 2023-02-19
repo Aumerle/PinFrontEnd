@@ -1,3 +1,4 @@
+import React from "react";
 import Marquee from "react-marquee-slider";
 import styled from "styled-components";
 import img1 from "../assets/img/people-1.jpg";
