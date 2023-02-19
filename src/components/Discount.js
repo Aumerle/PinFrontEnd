@@ -56,7 +56,7 @@ export default function Discount() {
             <br />
             Prendas seleccionadas
           </p>
-          <Button text="+Info" color="white" />
+          <a href="#contactanos"><Button text="+Info" color="white" /></a>
         </DiscText>
       </Discount>
     </Container>
