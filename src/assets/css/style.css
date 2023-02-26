@@ -153,3 +153,6 @@ body::-webkit-scrollbar{
 .formulario input[type="radio"] {
 	width: auto;
 }
+#error{
+	color: #e92b2d;
+}

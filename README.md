@@ -4,3 +4,7 @@ In the project directory, you can run:
 
 ### `yarn start`
 
+###  `yarn add formik`
+
+###  `yarn add yup`
+

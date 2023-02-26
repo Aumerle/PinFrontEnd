@@ -5,8 +5,7 @@ import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Modal from 'react-bootstrap/Modal';
 
-const endpoint =
-    "http://localhost/pinbackend/public/index.php/api/insertContacts";
+const endpoint ="http://localhost/pinbackend/public/index.php/api/insertContacts";
 const InsertContact = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -14,10 +13,11 @@ const InsertContact = () => {
     const [message, setMessage] = useState("");
     const navigate = useNavigate();
 
+
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-
+    
     const store = async (e) => {
         e.preventDefault();
         await axios.post(endpoint, {
@@ -30,6 +30,7 @@ const InsertContact = () => {
     };
     return (
         <div>
+
             <h1
                 id="contactanos"
                 className="font-primary color-secondary text-center my-4"
@@ -48,6 +49,7 @@ const InsertContact = () => {
                             className="form-control"
                             placeholder="Nombre"
                         />
+
                     </div>
 
                     <div className="mb-3">
@@ -90,7 +92,8 @@ const InsertContact = () => {
                             <Modal.Title>Gracias por escribirnos</Modal.Title>
                         </Modal.Header>
                         <Modal.Body>
-                            Estaremos comunicandonos en el menor tiempo posible!
+                            Te recomendamos ser preciso con los datos para podernos comunicar contigo!
+                            Gracias por preferirnos.
                         </Modal.Body>
                         <Modal.Footer>
     
@@ -104,8 +107,14 @@ const InsertContact = () => {
                         Enviar
                     </button>
                 </Container>
+                
             </form>
-        </div>
+            
+       </div>
+
+                
+
+      
     );
 };
 
