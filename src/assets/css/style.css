@@ -156,3 +156,31 @@ body::-webkit-scrollbar{
 #error{
 	color: #e92b2d;
 }
+.misionvision{
+	display: flex;
+	margin-top: 5%;
+	color: rgba(0, 0, 0, 0.582);
+  }
+  .misionvisiontexto{
+	display: flex;
+	color: rgba(0, 0, 0, 0.459);
+	text-align: justify;
+	transition-delay: 0.5;
+	margin-bottom: 50px;
+	
+  
+  }
+  #tituloMision{
+	margin-left: 20%;
+  }
+  #tituloVision{
+	margin-left: 45%;
+	
+  }
+  #Mision{
+	margin-right: 20px;
+  
+  }
+  #Vision{
+	margin-left: 20px;
+  }

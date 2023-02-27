@@ -56,7 +56,7 @@ export default function Discount() {
             <br />
             Prendas seleccionadas
           </p>
-          <a href="#contactanos"><Button text="+Info" color="white" /></a>
+          <a href="https://docdro.id/XGApni8" rel="noopener noreferrer" target="_blank"><Button text="+Info" color="white" /></a>
         </DiscText>
       </Discount>
     </Container>
