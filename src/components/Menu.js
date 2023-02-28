@@ -4,9 +4,9 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 export default function Menu() {
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark">
+    <Navbar collapseOnSelect expand="lg" variant="dark" id="inicio">
       <Container>
-        <Navbar.Brand href="#" className="font-primary color-primary fs-32">QIUIBUSINESS</Navbar.Brand>
+        <Navbar.Brand href="#" className="font-primary color-primary fs-32" >QIUIBUSINESS</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">

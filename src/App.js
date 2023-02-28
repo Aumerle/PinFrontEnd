@@ -8,6 +8,7 @@ import HappyCustomer from "./components/HappyCustomer";
 import About from "./components/About";
 import InsertContact from "./components/InsertContact";
 import Footer from "./components/Footer";
+import Carrusel from "./components/Carousel";
 
 export default function App() {
   
@@ -21,6 +22,7 @@ export default function App() {
           <Discount />
           <HappyCustomer />
           <About />
+          <Carrusel/>
           <div className="App">
               <BrowserRouter>
                   <Routes>

@@ -5,7 +5,9 @@ import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Modal from 'react-bootstrap/Modal';
 
-const endpoint ="http://dbpinproject.infinityfreeapp.com/?i=1";
+
+//const endpoint ="http://localhost/pinbackend/public/index.php/api/insertContacts";
+const endpoint ="http://dbpinproject.infinityfreeapp.com/";
 const InsertContact = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
