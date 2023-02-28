@@ -184,3 +184,8 @@ body::-webkit-scrollbar{
   #Vision{
 	margin-left: 20px;
   }
+
+  #letrafooter{
+	 color: #000000;
+	 text-decoration: none;
+  }

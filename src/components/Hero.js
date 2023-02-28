@@ -10,7 +10,7 @@ export default function Hero() {
         <Row>
           <Col lg={6} md={6} sm={12} className="d-flex align-items-center">
             <div className="text-lg-start text-md-start text-center">
-              <h1 className="font-primary color-primary">
+              <h1 className="font-primary color-primary" >
                 ¡Queremos brillar contigo!
               </h1>
               <p className="font-secondary color-secondary py-3">
