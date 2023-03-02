@@ -36,6 +36,7 @@ export default function About() {
 
             <br />
             <div className="misionvision">
+
                 <h3 className="font-primary color-primary" id="tituloMision">
                     MISIÓN
                 </h3>
@@ -51,22 +52,13 @@ export default function About() {
                     experimentar sensaciones únicas. Contar con equipos de
                     diseñadores y maestros orfebres estudiando constantemente
                     para hacer del arte de la joyeria colecciones exquisitas.
-                    Ayudar a que nuestro equipo use todo su potencial para crear
-                    joyas con identidad enalteciendo a quien las usa. Continuar
-                    produciendo alta calidad con el objetivo de que nuestro
-                    sello represente el más alto de los estándares de producción
-                    en joyeria. El desafió es inspirarnos constantemente e
-                    innovar para crear colecciones únicas. 
                 </p>
                 <p id="Vision" className="font-secondary color-secondary py-6">
                     Somos una empresa vanguardista orientada en todo momento a:
                     Formar un estilo de joyería basado en el concepto joya-arte.
                     Lograr el reconocimiento de los más exigentes. Lograr que
                     nuestro equipo se supere día a día, participando activamente
-                    con ideas, sugerencias y soluciones positivas. Lograr piezas
-                    icónicas: crear un estilo reconocible con una personalidad
-                    fuerte. Ponernos a la vanguardia de la tendencia de la moda
-                    de joyería contemporánea. 
+                    con ideas, sugerencias y soluciones positivas. 
                 </p>
             </div>
         </Container>

@@ -22,12 +22,24 @@ const InsertContact = () => {
     
     const store = async (e) => {
         e.preventDefault();
-        await axios.post(endpoint, {
-            name: name,
-            email: email,
-            phone: phone,
-            message: message,
-        });
+        const headers = {
+            'Access-Control-Allow-Origin': '*',
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          }
+        await axios.post(
+            endpoint, 
+            {
+                name: name,
+                email: email,
+                phone: phone,
+                message: message,
+            }, 
+            {
+                headers: headers
+              }
+            
+            );
         navigate("/");
     };
     return (

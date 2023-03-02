@@ -160,16 +160,33 @@ body::-webkit-scrollbar{
 	display: flex;
 	margin-top: 5%;
 	color: rgba(0, 0, 0, 0.582);
+	transition: width 1s, height 1s, transform 1s;
   }
+  .misionvision:hover{
+	/* tranformamos el elemento al pasar el mouse por encima*/
+	transform : scale(1.2);
+}
+
   .misionvisiontexto{
 	display: flex;
 	color: rgba(0, 0, 0, 0.459);
 	text-align: justify;
 	transition-delay: 0.5;
 	margin-bottom: 50px;
-	
-  
+	transition: width 1s, height 1s, transform 1s;
+
+
+
   }
+  .misionvisiontexto:hover{
+	/* tranformamos el elemento al pasar el mouse por encima*/
+	text-shadow: rgb(255, 129, 150) 0 -1px;
+     transition: all .2s ease-in-out;
+	 transform : scale(1.1);
+}
+
+  
+  
   #tituloMision{
 	margin-left: 20%;
   }
@@ -189,3 +206,4 @@ body::-webkit-scrollbar{
 	 color: #000000;
 	 text-decoration: none;
   }
+
