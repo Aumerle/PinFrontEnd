@@ -157,10 +157,13 @@ body::-webkit-scrollbar{
 	color: #e92b2d;
 }
 .misionvision{
-	display: flex;
+	margin:auto;
+	text-align: center;
+
 	margin-top: 5%;
 	color: rgba(0, 0, 0, 0.582);
 	transition: width 1s, height 1s, transform 1s;
+
   }
   .misionvision:hover{
 	/* tranformamos el elemento al pasar el mouse por encima*/
@@ -170,7 +173,7 @@ body::-webkit-scrollbar{
   .misionvisiontexto{
 	display: flex;
 	color: rgba(0, 0, 0, 0.459);
-	text-align: justify;
+	text-align: center;
 	transition-delay: 0.5;
 	margin-bottom: 50px;
 	transition: width 1s, height 1s, transform 1s;
@@ -188,10 +191,11 @@ body::-webkit-scrollbar{
   
   
   #tituloMision{
-	margin-left: 20%;
+
+	margin-left: auto;
   }
   #tituloVision{
-	margin-left: 45%;
+	margin:auto;
 	
   }
   #Mision{
