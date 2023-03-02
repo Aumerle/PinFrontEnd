@@ -37,12 +37,10 @@ export default function About() {
             <br />
             <div className="misionvision">
 
-                <h3 className="font-primary color-primary" id="tituloMision">
-                    MISIÓN
+                <h3 className="font-primary color-primary" id="tituloMMisisision">
+                    NUESTRO PROPÓSITO
                 </h3>
-                <h3 className="font-primary color-primary" id="tituloVision">
-                    VISIÓN
-                </h3>
+
             </div>
 
             <div className="misionvisiontexto">
@@ -53,13 +51,7 @@ export default function About() {
                     diseñadores y maestros orfebres estudiando constantemente
                     para hacer del arte de la joyeria colecciones exquisitas.
                 </p>
-                <p id="Vision" className="font-secondary color-secondary py-6">
-                    Somos una empresa vanguardista orientada en todo momento a:
-                    Formar un estilo de joyería basado en el concepto joya-arte.
-                    Lograr el reconocimiento de los más exigentes. Lograr que
-                    nuestro equipo se supere día a día, participando activamente
-                    con ideas, sugerencias y soluciones positivas. 
-                </p>
+
             </div>
         </Container>
     );
